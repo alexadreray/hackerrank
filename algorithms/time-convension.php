@@ -17,4 +17,5 @@ elseif (substr($time,-2) == "AM" and $arr[0] == 12) { $arr[0] = "00"; }
 
 echo $arr[0] . ":" . $arr[1] . ":" . substr($arr[2],0,2);
 
+
 ?>
